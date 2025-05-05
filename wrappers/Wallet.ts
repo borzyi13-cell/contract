@@ -20,9 +20,9 @@ export interface WalletFees {
 }
 
 export enum UnstakeMode {
-    Auto,
-    Instant,
-    Best,
+    Auto, // 0
+    Instant, // 1
+    Best, // 2
 }
 
 interface WalletConfig {
